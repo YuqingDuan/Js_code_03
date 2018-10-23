@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array</title>
+	<script type="text/javascript">
+		var array1 = [];
+		array1[0] = 12;
+		array1[1] = 3.14;
+		array1[2] = "Chinese";
+		array1[3] = "American";
+		alert(array1);
+
+		var array2 = [33, 1.002, "hello", "javascript"];
+		for(var i=0; i<array2.length; i++){
+			alert(array2[i]);
+		}
+
+		var array3 = [11,22,33,44,55];
+		var array4 = [66,77,88,99];
+		var array5 = array3.concat(array4);
+		alert(array5);
+
+		var array6 = [12,34,56,78];
+		var array7 = array6.join("&");
+		alert(array7);
+		alert(typeof(array7));//string
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

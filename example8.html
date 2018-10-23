@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>example8</title>
+	<script type="text/javascript">
+		var flag = 0;
+		for(var j=1; j<=100; j++){
+			for(var i=2; i<j; i++){
+				if(j%i==0){
+					flag=1;
+					break;
+				}else{
+					flag=0;
+				}
+			}
+			if(flag==0 && j!=1){
+				console.log(j);
+			}
+		}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
